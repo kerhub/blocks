@@ -5,3 +5,6 @@ dist-ssr
 .yalc.lock
 .yalc
 dist
+
+# IDEs
+.idea

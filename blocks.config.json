@@ -1,20 +1,11 @@
 [
   {
     "type": "file",
-    "id": "file-block",
-    "title": "Example File Block",
-    "description": "A basic file block",
-    "entry": "blocks/example-file-block/index.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
-  },
-  {
-    "type": "folder",
-    "id": "folder-block",
-    "title": "Example Folder Block",
-    "description": "A basic folder block",
-    "entry": "blocks/example-folder-block.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/githubocto/flat"
+    "id": "swagger",
+    "title": "Swagger UI",
+    "description": "Visualize APIs defined in Swagger 2.0 or OAS 3.0",
+    "entry": "blocks/swagger/index.tsx",
+    "matches": ["*.json", "*.yml"],
+    "example_path": "https://github.com/gothinkster/realworld/blob/main/api/openapi.yml"
   }
 ]
