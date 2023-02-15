@@ -5,7 +5,7 @@
     "title": "Swagger UI",
     "description": "Visualize APIs defined in Swagger 2.0 or OAS 3.0",
     "entry": "blocks/swagger/index.tsx",
-    "matches": ["*.json", "*.yml"],
+    "matches": ["*.json", "*.yml", "*.yaml"],
     "example_path": "https://github.com/gothinkster/realworld/blob/main/api/openapi.yml"
   }
 ]
